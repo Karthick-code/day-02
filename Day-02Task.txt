@@ -2,31 +2,22 @@
 Answer:
 Document Object:
 ->The Document object is the HTML document that appears in the browser window and serves as an interface for interacting with the web page’s content. The browser generates a Document Object Model of a web page upon loading it.
-
 ->The DOM manipulation tool offers methods to access and manipulate the structure and content of a document, such as getElementById(), querySelector(), createElement(), and innerHTML.
-
 ->Properties
-
 -->element.innerHTML = new html content
 -->element.attribute = new value
 
 ->Methods
-
 -->document.createElement(element)
 -->document.removeChild(element)
 
-
 Window Object:
 ->The Window object is a global object in client-side JavaScript, representing the browser window containing a DOM document and acting as the root of the document object model.
-
 ->The Window object is responsible for managing global variables, functions, and objects, providing methods for browser interaction and managing properties related to frames, tabs, or windows, such as alert(), confirm(), setTimeout(), and setInterval().
-
 ->Properties
-
 -->window.innerHeight - the inner height of the browser window
 -->window.innerWidth - the inner width of the browser window 
 
 ->Methods
-
 -->window.open() - open a new window
 -->window.close() - close the current window
